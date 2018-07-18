@@ -1,0 +1,56 @@
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" ToolsVersion="4.0">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>16a2ea65-cbc7-444b-81ee-80ee49f54800</ProjectGuid>
+    <ProjectHome>.</ProjectHome>
+    <StartupFile>dicts3.py</StartupFile>
+    <SearchPath>
+    </SearchPath>
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <Name>TuplesDictsSets</Name>
+    <RootNamespace>TuplesDictsSets</RootNamespace>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)' == 'Release' ">
+    <DebugSymbols>true</DebugSymbols>
+    <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="dicts1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="dicts2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="dicts3.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="sets1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="sets2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="sets3.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="tuples1.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="TuplesDictsSets.py" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+  <!-- Uncomment the CoreCompile target to enable the Build command in
+       Visual Studio and specify your pre- and post-build commands in
+       the BeforeBuild and AfterBuild targets below. -->
+  <!--<Target Name="CoreCompile" />-->
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+</Project>

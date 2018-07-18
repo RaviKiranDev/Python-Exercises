@@ -8,9 +8,14 @@ number2 = (input("Enter comma separated numbers2:"))
 l1=number1.split(',')
 l2=number2.split(',')
 
-s1=set(map(int,l1))
-s2=set(map(int,l2))
+#s1=set(map(int,l1))
+#s2=set(map(int,l2))
 
-l3= list(set(s1.intersection(s2)))
+#l3= list(set(s1.intersection(s2)))
 
-print(l3)
+#l3=[x for x in l1 y
+l3=[]
+
+l3=[i for i in l1 if i in l2]
+
+print(sorted(l3))
