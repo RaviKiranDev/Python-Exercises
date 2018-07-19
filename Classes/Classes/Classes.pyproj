@@ -2,15 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>2bd1c2fd-f28e-40b7-a5a9-c9f58cbd12ea</ProjectGuid>
+    <ProjectGuid>a12997b9-ad83-45ac-b6af-413b741f7acf</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Functions.py</StartupFile>
+    <StartupFile>Person.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Functions</Name>
-    <RootNamespace>Functions</RootNamespace>
+    <Name>Classes</Name>
+    <RootNamespace>Classes</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,35 +21,20 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Advanced1.py">
+    <Compile Include="Classes.py" />
+    <Compile Include="Dice.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Advanced2.py">
+    <Compile Include="Exercise.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Advanced3.py">
+    <Compile Include="Person.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Advanced4.py">
+    <Compile Include="Rectangle.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Advanced5.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Advanced6.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Advanced7.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="AdvancedExtraCredit.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Basic1.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="Functions.py" />
-    <Compile Include="prime.py">
+    <Compile Include="solvediceproblem.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
